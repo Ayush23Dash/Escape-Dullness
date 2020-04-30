@@ -29,7 +29,7 @@ video.addEventListener('timeupdate', function() {
     }
 
     //HANDLE MOUSE EVENTS
-    document.getElementsByTagName("BODY")[0].onmousemove = function(){
+    document.onmousemove = function(){
       video.currentTime=0;
       btn.className = 'pause';
       video.play();
@@ -40,7 +40,7 @@ video.addEventListener('timeupdate', function() {
       btnPress=!btnPress;
     };
 
-    document.getElementsByTagName("BODY")[0].onclick = function(){
+    document.onclick = function(){
       if(btnPress === true)//If video is paused
   {
       btnPress=!btnPress;

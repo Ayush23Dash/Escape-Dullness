@@ -1,23 +1,21 @@
 body{
   text-align: center;
   background-color: black;
+   overflow: hidden;
 }
-.heading{
-  color:#fff;
-  font-family: 'Muli', sans-serif;
-}
+
 p{
   /* font-family: 'Shojumaru', cursive; */
   color:#fff;
 }
 .container {
     display: flex;
-    background-color: #071e3d;
+    background-color: black;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-
+@media only screen and (max-width: 992px){
 .logo{
   display: flex;
   width:70px;
@@ -25,6 +23,25 @@ p{
   position: absolute;
   left:2%;
   top: 0;
+}
+.heading{
+  color:#fff;
+  font-family: 'Muli', sans-serif;
+}
+}
+@media only screen and (min-width: 993px){
+  .logo{
+    width:130px;
+    height: 91px;
+    /* position: absolute; */
+    left:50%;
+    z-index: 999;
+    top: 0;
+  }
+  .heading{
+    display: none;
+  }
+
 }
 .video {
 

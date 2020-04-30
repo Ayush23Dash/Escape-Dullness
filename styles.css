@@ -1,13 +1,15 @@
 body{
   text-align: center;
-  background-color: #FFBF55;
+  background: linear-gradient(#414141,#000000)
 }
 .heading{
-  text-align: center;
-  font-family: 'Wallpoet', cursive;
+  color:#fff;
+  /* font-family: 'Wallpoet', cursive; */
+  font-family: 'Muli', sans-serif;
 }
-h2{
-  font-family: 'Shojumaru', cursive;
+p{
+  /* font-family: 'Shojumaru', cursive; */
+  color:#fff;
 }
 .container {
     display: flex;

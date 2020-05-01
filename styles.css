@@ -1,7 +1,7 @@
 body{
   text-align: center;
   background-color: black;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 
 p{
@@ -13,7 +13,6 @@ p{
     background-color: black;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 @media only screen and (max-width: 992px){
 .logo{
@@ -31,20 +30,28 @@ p{
 }
 @media only screen and (min-width: 993px){
   .logo{
-    width:130px;
-    height: 91px;
+    width:160px;
+    height: 160px;
     /* position: absolute; */
-    left:50%;
-    z-index: 999;
+    /* left:3%; */
+    z-index:999;
+    margin-left:0;
+    float: left;
+    left:auto;
+    padding-left: 3%;
     top: 0;
+    position: relative;
   }
+
+.container{
+width: 80%;
+}
   .heading{
     display: none;
   }
-
 }
-.video {
 
+.video {
     width: 100%;
 }
 

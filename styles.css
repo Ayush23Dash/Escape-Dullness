@@ -46,14 +46,15 @@ p{
 .container{
 width: 80%;
 }
+.video{
+  width:100%;
+}
   .heading{
     display: none;
   }
 }
 
-.video {
-    width: 100%;
-}
+
 
 .buttons {
     padding: 10px;

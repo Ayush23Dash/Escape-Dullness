@@ -2,12 +2,12 @@
 var video = document.querySelector('.video');
 var juice = document.querySelector('.orange-juice');
 var btn = document.getElementById('play-pause');
-if(window.performance.navigation.type = 1 ){
-  // togglePlayPause();
-  // alert("hi");
-  // btn.click();
-  video.play();
-}
+// if(window.performance.navigation.type = 1 ){
+//   // togglePlayPause();
+//   // alert("hi");
+//   // btn.click();
+//   video.play();
+// }
 // $( document ).ready(function() {
 //     // alert( "ready!" );
 //     video.play();

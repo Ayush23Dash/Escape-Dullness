@@ -112,7 +112,7 @@ width: 100%;
     width: 100%;
     flex-wrap: wrap;
     background-color: rgba(0,0,0,0.7);
-    transform: translateY(100%) translateY(-5px);
+    /*transform: translateY(100%) translateY(-5px);*/
     transition: all 0s;
 }
 
